@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Estación Meteorológica</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <h1>Dashboard Estación Meteorológica</h1>
+ 
+    <p><img src="{{ url_for('static', filename='graf_Temp.png') }}"></p>
+    <p><img src="{{ url_for('static', filename='graf_Hume.png') }}"></p>
+    <p><img src="{{ url_for('static', filename='graf_Pres.png') }}"></p>
+ 
+    <p><a href="/autores">Autores</a></p>
+</body>
+</html>
